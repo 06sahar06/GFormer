@@ -20,6 +20,10 @@ class DataHandler:
             predir = '../Datasets/ifashion/'
         elif args.data == 'lastfm':
             predir = '../Datasets/lastfm/'
+        elif args.data == 'yambda':
+            predir = '../Datasets/yambda/'
+        elif args.data == 'declic':
+            predir = '../Datasets/declic/'
         self.predir = predir
         self.trnfile = predir + 'trnMat.pkl'
         self.tstfile = predir + 'tstMat.pkl'
